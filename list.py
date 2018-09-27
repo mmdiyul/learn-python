@@ -22,3 +22,14 @@ print kota
 print("-\nMenambah list di index tertentu :")
 kota.insert(4,"Solo")
 print kota
+
+# Menghapus data di list
+## di index tertentu
+print "-\nMenghapus data di index tertentu :"
+del kota[4]
+print kota
+
+## data tertentu
+print "-\nMenghapus data tertentu :"
+kota.remove("Pekanbaru")
+print kota
