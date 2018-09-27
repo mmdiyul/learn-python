@@ -33,3 +33,7 @@ print kota
 print "-\nMenghapus data tertentu :"
 kota.remove("Pekanbaru")
 print kota
+
+# Memotong list
+print "\nMemotong list :"
+print kota[1:5]
